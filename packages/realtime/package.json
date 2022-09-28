@@ -1,7 +1,7 @@
 {
   "name": "@velo/realtime",
   "version": "1.0.0-alpha.0",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "author": {
     "name": "Dan Greco",
     "email": "dan.greco@live.com",
@@ -29,5 +29,6 @@
   "dependencies": {
     "@velo/core": "workspace:^1.0.0-alpha.0",
     "rxjs": "^7.5.7"
-  }
+  },
+  "gitHead": "1720bf09bdff482c1802ac0baf90943842ccbae9"
 }
