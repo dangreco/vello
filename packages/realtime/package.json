@@ -13,16 +13,21 @@
   "scripts": {
     "build": "tsc --project tsconfig.esm.json && tsc --project tsconfig.cjs.json",
     "lint": "eslint src/**/*.ts",
-    "lint:fix": "eslint src/**/*.ts --fix"
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "test": "jest"
   },
   "exports": {
     "node": {
-      "require": "./lib/cjs/index.js",
-      "import": "./lib/esm/index.js"
+      "require": "./dist/cjs/index.js",
+      "import": "./dist/esm/index.js"
     },
-    "browser": "./lib/esm/index.js"
+    "browser": "./dist/esm/index.js"
   },
-  "main": "./lib/cjs/index.js",
-  "module": "./lib/esm/index.js",
-  "types": "./lib/types/index.d.ts"
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/types/index.d.ts",
+  "dependencies": {
+    "@velo/core": "workspace:^1.0.0",
+    "rxjs": "^7.5.7"
+  }
 }
