@@ -44,7 +44,7 @@ importers:
 
   packages/realtime:
     specifiers:
-      '@velo/core': workspace:^1.0.0
+      '@velo/core': workspace:^1.0.0-alpha.0
       rxjs: ^7.5.7
     dependencies:
       '@velo/core': link:../core

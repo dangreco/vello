@@ -1,6 +1,6 @@
 {
   "name": "@velo/realtime",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.0",
   "license": "MIT",
   "author": {
     "name": "Dan Greco",
@@ -27,7 +27,7 @@
   "module": "./dist/esm/index.js",
   "types": "./dist/types/index.d.ts",
   "dependencies": {
-    "@velo/core": "workspace:^1.0.0",
+    "@velo/core": "workspace:^1.0.0-alpha.0",
     "rxjs": "^7.5.7"
   }
 }
