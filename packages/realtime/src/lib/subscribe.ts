@@ -1,4 +1,4 @@
-import { Bixi } from '@velo/core';
+import { Bixi } from '@vello/core';
 import { Subject } from 'rxjs';
 import { Resolvers } from './resolvers';
 import { Resolver, SubscribeOptions, Topic } from './types';

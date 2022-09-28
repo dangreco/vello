@@ -1,4 +1,4 @@
-import { SystemAlert } from '@velo/core';
+import { SystemAlert } from '@vello/core';
 import { subscribe } from './subscribe';
 import { RTBike, RTStation, SubscribeOptions, Topic } from './types';
 

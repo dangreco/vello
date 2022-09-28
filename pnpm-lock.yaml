@@ -44,10 +44,10 @@ importers:
 
   packages/realtime:
     specifiers:
-      '@velo/core': workspace:^1.0.0-alpha.1
+      '@vello/core': workspace:^1.0.0-alpha.1
       rxjs: ^7.5.7
     dependencies:
-      '@velo/core': link:../core
+      '@vello/core': link:../core
       rxjs: 7.5.7
 
 packages:

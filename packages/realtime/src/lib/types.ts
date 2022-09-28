@@ -1,4 +1,4 @@
-import { Bixi, Language } from '@velo/core';
+import { Bixi, Language } from '@vello/core';
 
 export enum Topic {
   Bikes = 'BIKES',
