@@ -1,6 +1,6 @@
 {
   "name": "@vello/realtime",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "private": false,
   "license": "GPL-3.0",
   "author": {
@@ -28,7 +28,7 @@
   "module": "./dist/esm/index.js",
   "types": "./dist/types/index.d.ts",
   "dependencies": {
-    "@vello/core": "workspace:^1.0.0-alpha.2",
+    "@vello/core": "workspace:^1.0.0-alpha.3",
     "rxjs": "^7.5.7"
   },
   "gitHead": "319d518345b40bd0d1272f64be69d0de0939a667"
