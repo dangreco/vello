@@ -31,5 +31,5 @@
     "@vello/core": "workspace:^1.0.0-alpha.2",
     "rxjs": "^7.5.7"
   },
-  "gitHead": "f2fca834fce528232ca68f41d24d8f96462fa9d5"
+  "gitHead": "319d518345b40bd0d1272f64be69d0de0939a667"
 }
