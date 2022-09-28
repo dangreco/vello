@@ -1,0 +1,28 @@
+{
+  "name": "@velo/realtime",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Dan Greco",
+    "email": "dan.greco@live.com",
+    "url": "https://dangre.co"
+  },
+  "repository": {
+    "url": "https://github.com/dangreco/velo.git"
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.esm.json && tsc --project tsconfig.cjs.json",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix"
+  },
+  "exports": {
+    "node": {
+      "require": "./lib/cjs/index.js",
+      "import": "./lib/esm/index.js"
+    },
+    "browser": "./lib/esm/index.js"
+  },
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/types/index.d.ts"
+}
